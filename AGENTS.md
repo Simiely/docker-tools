@@ -1,6 +1,6 @@
 # AGENTS.md · 项目规则
 
-> 📌 **文档基线**：2026-11-18 清理两条死链（obsidian-agent 已删除 / homekeeper → home-inventory）
+> 📌 **文档基线**：2026-11-18（commit `d2eca3c`）清理两条死链（obsidian-agent 已删除 / homekeeper → home-inventory）
 > **更新索引后，请更新此行**（日期 + 新 commit hash），并在 CHANGELOG 追加。
 
 ## 本仓库定位（重要）
