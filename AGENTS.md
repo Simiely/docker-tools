@@ -17,6 +17,12 @@
 - 收录：可自托管的服务与应用（FastAPI / Django / Docker）
 
 
+## 机器层（repo-kit · link-only）
+- `tools/repo-kit/check_repo.py` 是**校验器**，不属于「工具源码」，与「本仓不放代码」不冲突
+- 校验：`python tools/repo-kit/check_repo.py --root .`；锁哈希：`pwsh tools/update-repo-kit.ps1 -Check`
+- 只查链接与锚点：四件套全部豁免 frontmatter，`include` 为空 = 扫全仓 `*.md`
+- `schema/kit.lock.json` **不要手改**，升级只能跑 `tools/update-repo-kit.ps1`
+
 ## 相关
 - 其它索引： [`pc-tools`](https://github.com/Simiely/pc-tools) · [`design-tools`](https://github.com/Simiely/design-tools) · [`mobile-apps`](https://github.com/Simiely/mobile-apps) · [`tech-guides`](https://github.com/Simiely/tech-guides) · [`docker-tools`](https://github.com/Simiely/docker-tools) · [`knowledge-hub`](https://github.com/Simiely/knowledge-hub)
 - 领域总管仓库： [`ae-tools`](https://github.com/Simiely/ae-tools) · [`blender-addons`](https://github.com/Simiely/blender-addons) · [`c4d-tools`](https://github.com/Simiely/c4d-tools)

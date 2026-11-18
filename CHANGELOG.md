@@ -1,5 +1,19 @@
 # CHANGELOG.md · 仓库级变更
 
+## 仓库 · 2026-11-18 · 接入 repo-kit 机器层（link-only）
+
+### 新增
+
+- `schema/taxonomy.json` + `schema/kit.lock.json`（kit `2.8.1` / 规范 `2.1.4` / `link-only`）
+- `tools/repo-kit/check_repo.py`、`tools/update-repo-kit.ps1`
+- `.github/workflows/repo-check.yml`：push 到 main 与 PR 时跑链接/锚点检查 + 锁哈希校验
+
+### 说明
+
+- 只查「链接是否可达、锚点是否存在」，不要求 frontmatter（四件套全部豁免）。
+  本仓是索引仓，真正的风险是仓库链接 404——上午那次死链是**手工**发现的，现在有门禁。
+- `tools/repo-kit/` 是校验器，不算「工具源码」，与「本仓不放代码」不冲突。
+
 ## 仓库 · 2026-11-18 · 清理两条死链
 
 ### 修复
