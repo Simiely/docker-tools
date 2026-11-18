@@ -7,8 +7,7 @@
 
 | 服务 | 说明 | 技术栈 | 最近更新 |
 |---|---|---|---|
-| **[`homekeeper`](https://github.com/Simiely/homekeeper)** | 家居物品管理：记录物品**位置 / 保质期 / 状态**，Docker 一键部署、浏览器访问 | FastAPI + SQLite + 原生 JS | 2026-08-08 |
-| **[`obsidian-agent`](https://github.com/Simiely/obsidian-agent)** | Docker 化的 Obsidian 知识库 AI 助手：指定 vault 路径即可浏览、编辑、全文检索全部 Markdown | Python · Docker | 2026-08-14 |
+| **[`home-inventory`](https://github.com/Simiely/home-inventory)** | 家庭物品管理：手机扫码 + 卡片式录入 + AI 整理 + 物理超链接（取代已删除的 homekeeper） | TypeScript · SQLite · Docker | 2026-11-17 |
 | **[`learning-platform`](https://github.com/Simiely/learning-platform)** 🔗[页面](https://simiely.github.io/learning-platform/) | Lets Learn：幼儿识字 / 认知闪卡平台，支持浏览、卡片、练习三种模式，为触屏优化 | Django + Alpine.js | 2026-08-03 |
 
 ## 说明
